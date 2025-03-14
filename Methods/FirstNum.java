@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class FirstNum {
     static int remove(int x){
-        int num=0;
-        while(x>0){
-            num=x%10;
+        // int num=0;
+        while(x>9){
+            // num=x%10;
             x=x/10;
         }
-        return num;
+        return x;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
