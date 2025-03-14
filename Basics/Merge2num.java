@@ -1,3 +1,4 @@
+package Basics;
 public class Merge2num {
     public static void main(String[] args) {
         int x=1234;

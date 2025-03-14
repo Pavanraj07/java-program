@@ -1,3 +1,4 @@
+package Basics;
 public class EvenOdd{
     public static void main(String[] args) {
         int n=1;
