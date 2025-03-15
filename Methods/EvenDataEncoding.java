@@ -16,7 +16,7 @@ public class EvenDataEncoding {
             System.out.print((rem1%2==0)? 0 : 1);
         }
 }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         int n=125369;
         System.out.println("Number is :"+n);
         result(n);
