@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class P27_PromicNum {
+public class P27_PronicNum {
     static void pronic(int n){
         int mul=0;
         for(int i=0;i<=n/2;i++){
