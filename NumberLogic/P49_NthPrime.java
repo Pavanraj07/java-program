@@ -11,7 +11,7 @@ public class P49_NthPrime {
                 break;
             }
         }
-        return (flag==1)?0:n;
+        return (flag==0)?n:0;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
