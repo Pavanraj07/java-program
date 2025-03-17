@@ -12,7 +12,7 @@ public class P30_palindromeRange {
     }
     public static void main(String[] args) {
         int n=121;
-        System.out.println("Number is:"+n);
+        System.out.println("Numbers are:"+n);
         for(int i=0; i<=n; i++) {
             int res = reverse(i);
             if(res != 0 ) System.out.print(res+" ");
