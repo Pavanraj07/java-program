@@ -13,7 +13,7 @@ public class P14_ArmstrongNum {
         if(temp==sum)
             System.out.println("Armstrong Number");
         else
-            System.out.println("Not Armstrong Number");; 
+            System.out.println("Not Armstrong Number"); 
     }
     static int cube(int n){
         return n*n*n;
