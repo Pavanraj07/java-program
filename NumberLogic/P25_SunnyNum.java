@@ -13,6 +13,6 @@ public class P25_SunnyNum {
     }
     public static void main(String[] args) {
         int n=8;
-        sunnynumber(n);
+        sunnynumber(n+1);
 }
 }
