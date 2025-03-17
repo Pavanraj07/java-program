@@ -14,7 +14,7 @@ public class P39_MagicNuminRange {
         int n=19;
         System.out.println("Magic Numbers are:");
         for(int i=1;i<=n;i++){
-            int res = MagicNumber(n);
+            int res = MagicNumber(i);
             if(res==1)System.out.print(i+" ");
         }
         
