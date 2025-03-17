@@ -11,7 +11,7 @@ public class P20_magicNum {
         return (sum >9) ? MagicNumber(sum):sum;
     }
     public static void main(String[] args) {
-        int n=19;
+        int n=191;
         int res = (MagicNumber(n));
         System.out.println((res == 1) ? "It is a Magic Number" : "It is Not a Magic Number");
     }
