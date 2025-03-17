@@ -17,7 +17,7 @@ public class P26_DisariumNum {
             j--;
             n /= 10;
         }
-        System.out.println(val==sum ? "It is a Disarium Number" : "It is Not a Disarium Number");5
+        System.out.println(val==sum ? "It is a Disarium Number" : "It is Not a Disarium Number");
     }
     public static void main(String[] args) {
         int n=135;
