@@ -8,7 +8,7 @@ public class P20_magicNum {
             n /= 10;
             sum += rem;
         }
-        return (sum < 10) ? sum : MagicNumber(sum);
+        return (sum >9) ? MagicNumber(sum):sum;
     }
     public static void main(String[] args) {
         int n=19;
