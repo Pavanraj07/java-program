@@ -8,12 +8,12 @@ public class P13_PerfectSquare {
                 flag=1;
         }
         if(flag==1)
-            System.out.println("It is a perfect square");
+            System.out.println("It is a Sunny number");
         else    
-            System.out.println("It is not a perfect square");
+            System.out.println("It is not a sunny number");
     }
     public static void main(String[] args) {
-        int n=4;
-        PerfectSquare(n);
+        int n=8;
+        PerfectSquare(n+1);
     }
 }
