@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class LCM {
+public class P8_LCM {
     static int GCD(int x,int y){
         int res=0;
         while(x>0){

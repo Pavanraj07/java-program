@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class CountDigit {
+public class P4_CountDigit {
     static int result(int x){
         int rem=0, count=0;
         while(x>0){

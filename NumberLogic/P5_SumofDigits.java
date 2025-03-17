@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class SumofDigits {
+public class P5_SumofDigits {
     static int add(int x){
         int rem=0,sum=0;
         while(x>0){

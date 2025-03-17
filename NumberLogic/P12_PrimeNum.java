@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class PrimeNum {
+public class P12_PrimeNum {
     static int prime(int x){
         int flag=0;
         for(int i=2;i<x/2 ; i++){

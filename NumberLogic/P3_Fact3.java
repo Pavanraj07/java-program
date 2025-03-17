@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class Fact3 {
+public class P3_Fact3 {
     static int Factorial(int n){
         int fact=1;
         for(int i=1;i<=n;i++){

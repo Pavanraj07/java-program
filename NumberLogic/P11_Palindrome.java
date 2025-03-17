@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class Palindrome {
+public class P11_Palindrome {
     static int reverse(int x){
         int rev=0,temp=x;
         while(x>0){

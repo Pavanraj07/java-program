@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class CalculateGCD {
+public class P7_CalculateGCD {
     static int GCD(int x,int y){
         int res=0;
         while(x>0){

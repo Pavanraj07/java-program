@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class PrimeFactors {
+public class P10_PrimeFactors {
     static void factor(int n){
         int i;
         System.out.println("Prime factors are:  ");

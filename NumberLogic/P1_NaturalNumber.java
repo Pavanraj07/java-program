@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class NaturalNumber {
+public class P1_NaturalNumber {
     static int add(int x){
         int i,sum=0;
         for(i=0;i<=x;i++)

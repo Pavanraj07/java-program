@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class ReverseNumber {
+public class P6_ReverseNumber {
     static int reverse(int x){
         int rev=0;
         while(x>0){

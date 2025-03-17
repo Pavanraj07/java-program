@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class FactorialNum {
+public class P9_FactorialNum {
     static int Fact(int x){
         if(x==1)return 1;
         else return x*Fact(x-1);

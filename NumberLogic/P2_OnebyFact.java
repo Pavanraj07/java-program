@@ -1,6 +1,6 @@
 package NumberLogic;
 
-public class OnebyFact {
+public class P2_OnebyFact {
     static int Fact(int x){
         if(x==1)return 1;
         else return x*Fact(x-1);
