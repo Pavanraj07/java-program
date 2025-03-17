@@ -13,7 +13,7 @@ public class P13_PerfectSquare {
             System.out.println("It is not a perfect square");
     }
     public static void main(String[] args) {
-        int n=49;
+        int n=4;
         PerfectSquare(n);
     }
 }
