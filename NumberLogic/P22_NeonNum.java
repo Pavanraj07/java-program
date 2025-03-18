@@ -9,6 +9,7 @@ public class P22_NeonNum {
             square/=10;
             sum+=rem;
         }
+
         if(sum==n)
             System.out.println("Neon number");
         else    
@@ -16,7 +17,7 @@ public class P22_NeonNum {
 
     }
     public static void main(String[] args) {
-        int n=45;
+        int n=9;
         neonnumber(n);
     }
 }
