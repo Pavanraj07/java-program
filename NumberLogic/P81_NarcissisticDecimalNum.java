@@ -1,20 +1,19 @@
 package NumberLogic;
 
 public class P81_NarcissisticDecimalNum {
-    static int disarium(int n){
-        int j=0, sum=0, val=n;
+    static int Narcissistic(int n){
+        int count=0, sum=0, val=n;
         while(val>0) {
             val /= 10;
-            j++;
+            count++;
         }
         val = n;
         while(n > 0) {
             int rem = n % 10;
             int temp = rem;
-            for(int i=j; i>1; i--) 
-                rem = rem * temp;
-            sum += rem;
-            j--;
+            for(int i=1; i<count; i++) 
+                temp = temp * rem;
+            sum += temp;
             n /= 10;
         }
         return (val==sum) ? val : 0;
@@ -23,7 +22,7 @@ public class P81_NarcissisticDecimalNum {
         int n=1634;
         System.out.println("First 15 Narcissistic decimal numbers are:");
         for(int i=0;i<=n;i++){
-            int res=disarium(i);
+            int res=Narcissistic(i);
             if(res!=0)System.out.println(res+" ");
         }
     }
