@@ -2,7 +2,7 @@ package NumberLogic2;
 
 import java.util.Scanner;
 
-public class P1_Swap {
+public class P101_Swap {
     static void swap(int m,int n){
         m=m+n;
         n=m-n;

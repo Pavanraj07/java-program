@@ -2,7 +2,7 @@ package NumberLogic2;
 
 import java.util.Scanner;
 
-public class P4_DecimaltoBinary {
+public class P104_DecimaltoBinary {
     static void DecimaltoBinary(int n){
         if (n == 0) {
             return ;  

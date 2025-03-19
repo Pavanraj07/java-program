@@ -2,7 +2,7 @@ package NumberLogic2;
 
 import java.util.Scanner;
 
-public class P3_SumofDigitsReecursion {
+public class P103_SumofDigitsReecursion {
     static int SumogDigit(int n){
         int rem=0,sum=0;
         if(n>0){

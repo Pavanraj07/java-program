@@ -2,7 +2,7 @@ package NumberLogic2;
 
 import java.util.Scanner;
 
-public class P2_PowerUsingRecursion {
+public class P102_PowerUsingRecursion {
     static int result(int m,int n){
         if(n==0) {
             return 1; 
