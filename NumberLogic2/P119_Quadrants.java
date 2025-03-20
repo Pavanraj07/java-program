@@ -12,7 +12,7 @@ public class P119_Quadrants {
             System.out.println("Points are in Third quadrant");
         else if(x>0 && y<0)
             System.out.println("Points are in Fouth quadrant");
-        else
+        else if(x==0 && y==0)
             System.out.println("Points ara at origin");
 
     }
