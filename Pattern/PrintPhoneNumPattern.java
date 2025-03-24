@@ -75,7 +75,7 @@ public class PrintPhoneNumPattern {
                 else
                     System.out.print(" ");
             }
-            System.out.println("  "); 
+            System.out.print("  "); 
 
             for (int j=0;j<n;j++) {
                 if(j==n/2 || i==n-1 || i+j==n/2)
