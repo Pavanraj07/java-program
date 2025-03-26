@@ -11,7 +11,7 @@ public class Program9_2 {
         System.out.println("Enter Array elements:");
         int[] a = new int[n];
         for(int i=0;i<n;i++)
-            a[i]=sc.nextInt();
+            a[i]=sc.nextInt();//
         
         int[] b=new int[n];
         int j=0;
@@ -30,6 +30,6 @@ public class Program9_2 {
         }
         System.out.println("Result:");
         for(int i=0;i<n;i++)
-            System.out.print(b[i]+" ");
+            System.out.print(b[i]+" "); //6 2 4 3 9 7
     }
 }
