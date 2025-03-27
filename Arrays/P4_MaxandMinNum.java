@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class MaxandMinNum {
+public class P4_MaxandMinNum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of Array:");

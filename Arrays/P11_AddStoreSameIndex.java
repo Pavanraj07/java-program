@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class AddStoreSameIndex {
+public class P11_AddStoreSameIndex {
     static int add(int n){
         int rem=0,sum=0;
         while(n>0){

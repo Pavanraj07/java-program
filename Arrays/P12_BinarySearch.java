@@ -1,6 +1,6 @@
 package Arrays;
 
-public class BinarySearch {
+public class P12_BinarySearch {
     static boolean Search(int [] a, int target){
         int n=a.length;
         int start=0, end=n-1;

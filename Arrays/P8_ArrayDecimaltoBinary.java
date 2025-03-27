@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class ArrayDecimaltoBinary {
+public class P8_ArrayDecimaltoBinary {
     static int DecimaltoBinary(int n){
         int res=0,power=1;
         while(n>0){
