@@ -1,6 +1,6 @@
 package Arrays;
 
-public class P19_Merge2Arrays {
+public class P18_Merge2Arrays {
     static void merge(int []arr1,int [] arr2,int[] arr3) {
         int i=0,j=0,k=0;
         int n1=arr1.length;

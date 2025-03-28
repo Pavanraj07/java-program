@@ -1,6 +1,6 @@
 package Arrays;
 
-public class P20_RemoveDuplicates {
+public class P19_RemoveDuplicates {
     static int remove(int[] a){
         int j=1; 
         int n=a.length;
