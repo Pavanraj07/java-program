@@ -1,12 +1,12 @@
 package PatternProblem.Patternset1;
 
-public class pattern66 {
+public class Pattern66 {
     public static void main(String[] args) {
         int n=5 ;
         for(int i=0;i<n;i++){
             for(int j=0;j<=n;j++){
                 if( i-j==0 || i+j==n-1)
-                    System.out.print(n-i+" ");
+                    System.out.print(i+1+" ");
                 else   
                     System.out.print("  ");
             }
