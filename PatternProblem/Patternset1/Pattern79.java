@@ -1,14 +1,14 @@
 package PatternProblem.Patternset1;
 
-public class Pattern72 {
+public class Pattern79 {
     public static void main(String[] args) {
-        int n=5 ;
+        int n=7 ;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if( i-j==0 )
-                    System.out.print("0 ");
+                if(i-j>=0 && j<=n/4)
+                    System.out.print("* ");
                 else   
-                    System.out.print("X ");
+                    System.out.print("  ");
             }
             System.out.println();
         }
