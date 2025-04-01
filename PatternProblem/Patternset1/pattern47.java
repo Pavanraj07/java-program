@@ -1,6 +1,6 @@
 package PatternProblem.Patternset1;
 
-public class pattern47 {
+public class Pattern47 {
     public static void main(String[] args) {
         int n=8 ;
         for(int i=0;i<n;i++){
