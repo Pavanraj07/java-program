@@ -9,8 +9,9 @@ public class P4_ReplaceSymbol {
     }
     
     static void AddCount(char[] ch ,int start ,int end){
-        int count=(end-start)+1;
-        ch[end]=(char)(count+48);
+        // int count=(end-start)+1;
+        ch[end]=(char)(35);
+        ch[start]=(char)(64);
     }
     public static void main(String[] args) {
         String s="what is your name";
