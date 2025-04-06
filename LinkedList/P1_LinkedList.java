@@ -7,24 +7,20 @@ class Node{
         this.data=data;
     }
 }
-
 class linkedlist{
     Node root;
-   
     void append(int data){
         Node n=new Node(data);
         if(root==null){
             root=n;
             return;
         }
-       
         Node x=root;
         while(x.add!=null){
             x=x.add;
         }
         x.add=n;
         return;
-         
     }
     void disp(){
         Node x=root;
@@ -49,4 +45,3 @@ public class P1_LinkedList
         l.disp();
     }
 }
-
