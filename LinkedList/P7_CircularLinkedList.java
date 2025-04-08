@@ -1,4 +1,5 @@
 package LinkedList;
+
 class Node{
     int data;
     Node add;
@@ -6,7 +7,8 @@ class Node{
         this.data=data;
     }
 }
-class linkedlist3{
+
+class Cirlinkedlist{
     Node root;
     void append(int data){
         Node n=new Node(data);
@@ -30,39 +32,17 @@ class linkedlist3{
             x=x.add;
         }
     }
-    void len(){
-        Node x=root;
-        int count=0;
-        while(x!=null){
-            x=x.add;
-            count++;
-        }
-        System.out.println("Length is:"+count);
-    }
-    void delete(int i){
-        Node x = root;
-        if(i == 0) {
-            root = root.add;
-        }
-
-        while(i!=1) {
-            x = x.add; i--;
-        }
-        x.add = x.add.add;
-    }
 }
-public class P4_LinkedListDelete
+public class P7_CircularLinkedList
 {
     public static void main(String[] args) {
-        linkedlist3 l=new linkedlist3();
+        Cirlinkedlist l=new Cirlinkedlist();
         l.append(10);
         l.append(20);
         l.append(30);
         l.append(40);
         l.append(50);
         l.append(80);
-        l.delete(2);
         l.disp();
-        l.len();
     }
 }
