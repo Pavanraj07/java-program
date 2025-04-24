@@ -13,7 +13,7 @@ public class P76_UglyNum {
         
     }
     public static void main(String[] args) {
-        int n=16;
+        int n=12;
         System.out.println((uglynum(n)==1)?"Ugly number": "Not an ugly number");
     }
 }
